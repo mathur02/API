@@ -10,3 +10,6 @@ def wrapper(func):
         else:
             return {"error":"missing arguments"}
    return validator
+
+def validator():
+    return validator
